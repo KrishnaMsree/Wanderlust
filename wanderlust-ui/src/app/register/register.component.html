@@ -1,0 +1,56 @@
+<section id="loginPage" class="loginSection" *ngIf="!loginPage">
+    <div class="row">
+        <div class="col-md-4 offset-4 ">
+            <h1>Register</h1>
+
+            <form [formGroup]="registerForm" (ngSubmit)="register()" class="form">
+                <div class="form-group">
+                    <label for="name">Name<span class="text-danger">*</span></label>        
+                    <input type="text" formControlName="name" id="name" class="form-control"> 
+                    <span class="error-message" *ngIf="registerForm.get('name').invalid && registerForm.get('name').touched" class="text-danger">Enter the valid Name</span>
+                    <!-- <span class="error-message" *ngIf="registerForm.name.controls.errors?.pattern" class="text-danger">Enter only alphabet</span> -->
+                </div>
+                
+                <div class="form-group">
+                    <label for="emailId">EmailId<span class="text-danger">*</span></label>        
+                    <input type="text" formControlName="emailId" id="emailId" class="form-control"> 
+                    <span class="error-message" *ngIf="registerForm.get('emailId').invalid && registerForm.get('emailId').touched" class="text-danger">Enter a valid EmailId: example@exm.com</span>
+                    <!-- <span class="error-message" *ngIf="registerForm.uEmail.controls.errors?.pattern && registerForm.get('uEmail').touched" class="text-danger">Email-id should be of given format: example@exm.com</span> -->
+                </div>
+
+                <div class="form-group">
+                    <label>Contact Number<span class="text-danger">*</span></label>        
+                    <input type="number" formControlName="contactNo" id="uContactNo" class="form-control"> 
+                    <span class="error-message" *ngIf="registerForm.get('contactNo').invalid && registerForm.get('contactNo').touched" class="text-danger">Enter the valid Indian Mobile Number</span>
+                    <!-- <span class="error-message" *ngIf="registerForm.contactNo.controls.errors?.pattern && registerForm.get('contactNo').touched" class="text-danger">Mobile Number should be a valid Indian format Ex:7541834534</span> -->
+                </div>
+
+                <div class="form-group">
+                    <label>Password<span class="text-danger">*</span></label>        
+                    <input type="password" formControlName="password" id="uPass"class="form-control"> 
+                    <span class="error-message" *ngIf="registerForm.get('password').invalid && registerForm.get('password').touched" class="text-danger">Enter a strong password</span>
+                    <!-- <span class="error-message" *ngIf="registerForm.password.controls.errors?.pattern && registerForm.get('password').touched && registerForm.password.controls.errors?.minLength && registerForm.password.controls.errors?.maxLength" class="text-danger">Mobile Number should be a valid Indian format Ex:7541834534</span> -->
+                </div>
+
+                <span class="text-danger">* marked feilds are mandatory</span>
+                <!-- <br> -->
+                <button type="submit" [disabled]="registerForm.invalid" class="btn btn-primary">Register</button>   
+            </form>
+
+            <div class="form-group">
+                <div *ngIf="errorMessage!=null" class="text-danger">
+                    {{errorMessage}}
+                </div>
+                <div *ngIf="successMessage!=null" class="text-success">
+                    {{successMessage}}
+                </div>
+            </div>
+            <!--can be a button or a link based on need -->
+            <button class="btn btn-primary" (click)="getLoginPage()">Click here to Login</button>
+        </div>
+      </div>
+</section>
+
+<div *ngIf="loginPage">
+    <router-outlet></router-outlet>
+</div>

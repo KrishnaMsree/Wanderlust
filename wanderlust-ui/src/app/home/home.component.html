@@ -1,0 +1,88 @@
+<!-- home page -->
+<div *ngIf="!packagePage">
+    <!-- Header -->
+    <header class="masthead" id="page-top">
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <h1 class="mx-auto my-0 text-uppercase">Wanderlust</h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">All that is gold does not glitter,
+                    Not all those who wander are lost.</h2>
+                <div class="form-inline d-flex">
+                    <input type="text" class="form-control-lg flex-fill" id="place" name="continent" id="continent" [(ngModel)]="keyword" placeholder="Where?">&nbsp;
+                    <button (click)="search()" class="btn btn-primary mx-auto">Search</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mb-4">Unleash the traveller inside you</h2>
+                    <p class="about-paragraph text-center">When someone makes a travel plan, the first few things they want to sort out, are flights, accommodation, and other amenities for a convenient holiday. To enjoy holidays, you want to have the basics taken care of, especially for family vacations and honeymoon trips. You want your accommodation, return flight bookings, meals of the days, and other traveling formalities sorted beforehand. At <a [routerLink]="['/home']" (click)="ngOnInit()">Wanderlust</a>, we take care of all the requirements to ensure that you get to enjoy the best of your holiday, exploring and experiencing the destination.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Hot deals [key]="keyword"-->
+    <section id="hotDeals" class="hotDeals-section">
+        <app-packages></app-packages>
+    </section>
+
+    <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+                    <form class="form-inline d-flex">
+                        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+                        <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+          
+    
+    <!-- Contact Section -->
+    <section class="contact-section bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <h4 class="text-uppercase m-0">Address</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">Infosys, Mysore</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50"><a [routerLink]="['/home']" (click)="ngOnInit()">ETA_FP_UI_TEAM@infosys.com</a></div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">+91 1234567890</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

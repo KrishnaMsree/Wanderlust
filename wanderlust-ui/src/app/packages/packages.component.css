@@ -1,0 +1,7 @@
+button{
+    width:50%;
+}
+.vertical {
+    border-right: 6px solid green;
+    height: 300px;
+  }
