@@ -1,0 +1,26 @@
+/* button{
+    width:100%;
+} */
+#calc{
+    width:100%;
+}
+.first{
+    font-family: 'sans-serif';
+    font-size: 'medium';
+}
+#cal{
+    width:45%;
+}
+.mydialog {
+    width: 30%;
+}
+#cancelButton{
+    border: 1px solid rosybrown;
+    border-radius: 12px;
+    
+}
+@media screen and (max-width: 40em) {
+    .mydialog {
+        width: 20%;
+    }
+}

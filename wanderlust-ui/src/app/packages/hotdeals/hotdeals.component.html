@@ -1,0 +1,193 @@
+<!-- {{hotDealsData | json}} -->
+<br><br><br>
+<div *ngIf = "errorMessage == null && hotDealsData.length>0 && !booked">
+    <div *ngFor="let deal of hotDealsData">
+        <div class="row" >
+            <div class="col-md-3 offset-1">
+                <img [src]="deal.imageUrl" alt="Image not found" width="100%" height="80%">
+            </div>
+            <div class="vertical">&nbsp;&nbsp;&nbsp;&nbsp;</div>&nbsp;&nbsp;&nbsp;
+            <div class="col-md-4">
+                
+                <p-card header={{deal.name}} [style]="{width: '360px'}">
+                    <span class="badge bg-info">{{deal.noOfNights}} Nights</span>
+                    <div class="text-danger">{{deal.discount}}% Instant Discount</div>
+                    <div class="text-secondary">{{deal.details.about}}</div>
+                </p-card>
+                <!-- <h3>{{deal.name}}</h3><br> -->
+            </div>
+            <div class="col-md-3" >
+                <div class="text-center">
+                    <div >Prices Starting from</div>
+                    <div class="text-center text-success">{{deal.chargesPerPerson | currency}}</div>
+                    <br>
+                    <button type="submit" (click)="book(deal)" class="btn btn-primary">Book</button>   
+                </div>
+            </div>
+        </div> <br>  <br><br>
+    </div>
+</div>
+
+<div *ngIf="booked">
+    <p-dialog header="Book a Trip" [(visible)]="display" [draggable]="true" [resizable]="true" [modal]="true" [maximizable]="true"  [baseZIndex]="10000" [style]="{width: '90vw',height:'150vw'}">
+<br>
+        <div class="row">
+            <div class="col-md-6 offset-1">
+        
+                <h3 class="first">{{deals.name}}</h3>
+                <p-accordion>
+                    <p-accordionTab header="Overview" [selected]="true">
+                        
+                        <div class="row">
+                            <div class="col-md-8 offset-2">
+                                <br>
+                                <img [src]="deals.imageUrl" alt="not found" width="100%" height="80%">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 >Tour Overview</h5>
+                                <p>{{deals.details.about}}</p>
+                            </div>
+                        </div>
+        
+                    </p-accordionTab>
+        
+                    <p-accordionTab header="Package Inclusions">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5>Package Inclusions</h5>
+                                <ul *ngFor="let pack of deals.details.itinerary.packageInclusions">
+                                    <li>{{pack}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </p-accordionTab>
+        
+        
+                    <p-accordionTab header="Itinerary">
+        
+                        <div class="row">
+                            <div class="col-md-12">
+                                
+                                <h4>Day wise Details</h4>
+                                <h5>Day 1</h5>
+                                    <div>{{deals.details.itinerary.dayWiseDetails.firstDay}}</div>
+                                <h5>Day 2</h5>
+                                    <div>{{deals.details.itinerary.dayWiseDetails.firstDay}}</div>
+                                <div *ngFor = "let day of deals.details.itinerary.dayWiseDetails.restDaysSightSeeing; let i = index">
+                                    
+                                    <h5>Day {{i+3}}</h5>
+                                    <div>{{day}}</div>
+                                </div>
+                                <h5>Last Day</h5>
+                                    <div>{{deals.details.itinerary.dayWiseDetails.lastDay}}</div>
+                            </div>
+                        </div>
+                    </p-accordionTab>
+                    <p-accordionTab header="High Lights">
+                        <div class="row">
+                            <div class="col-md-12">
+                                
+                                <h4>Tour High lights</h4>
+                                <ul *ngFor = "let hl of deals.details.itinerary.tourHighlights; let i = index">
+                                   <li>{{hl}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                
+                                <h4>Tour Pace</h4>
+                                <p>{{deals.details.itinerary.tourPace}}</p>
+                            </div>
+                        </div>
+                    </p-accordionTab>
+                </p-accordion>
+        
+            </div>
+        
+            <div class="col-md-5">
+                <p-card header="Book Trip" [style]="{width: '360px'}">
+                    <form [formGroup]="bookForm" class="form">
+                    
+                    <div class="subheader">
+                        <h5>**Charges per person {{deals.chargesPerPerson | currency}}</h5>
+                    </div>
+                        <div class="form-group">
+                            <label id="noOfPersons">Number of Persons<span class="text-danger">*</span></label>        
+                            <input type="number" formControlName="noOfPersons" id="noOfPersons" class="form-control"> 
+                            <span class="error-message" *ngIf="bookForm.get('noOfPersons').invalid && bookForm.get('noOfPersons').touched" class="text-danger">Number
+                                of travelers should be between 1 and 5</span>
+                        </div>
+        
+                        <div class="form-group">
+                            <label id="date">Trip start date<span class="text-danger">*</span></label>        
+                            <input type="date" formControlName="date" id="date"class="form-control"> 
+                            <span class="error-message" *ngIf="bookForm.get('date').invalid && bookForm.get('date').touched" class="text-danger">
+                                Start date should be later than today
+                            </span>
+                        </div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" formControlName="switch" class="custom-control-input" id="customSwitches">
+                            <label class="custom-control-label" for="customSwitches">Include Flights</label>
+                          </div>
+                          <br>
+                        <!-- <span class="text-danger">* marked feilds are mandatory</span> -->
+        
+                        <button  [disabled]="bookForm.invalid" align="center" id="calc" (click)="calculateCharges()" class="btn btn-primary">Calculate Charges</button>   
+                        <div class="form-group text-center">
+                            <div *ngIf="chargesMessage!=null" class="text-success">
+                                Your trip ends on {{endDate | date:'longDate'}} and you will pay {{chargesMessage | currency}}
+                            </div>
+                        </div>
+        
+                        <p-footer>
+                            <div align="center">
+                                <button type="submit" [disabled]="bookForm.invalid" id="cal" (click)="bookTrip()" class="btn btn-primary">Book</button>   &nbsp;
+                                <button type="reset" id="cal" class="btn btn-primary" >Cancel</button>   
+                            </div>
+                            <br>
+                            
+        
+                            <!-- <p-dialog header="Message" [(visible)]="display" [style]="{width: '60vw'}"> -->
+                                <div class="form-group text-center">
+                                    <h5>
+                                        <div *ngIf="errorMessage!=null" class="text-danger">
+                                            {{errorMessage}}
+                                        </div>
+                                        <div *ngIf="successMessage!=null" class="text-success">
+                                            {{successMessage}}
+                                        </div>
+                                    </h5>
+                                </div>
+                            <!-- </p-dialog> -->
+                            
+        
+                        </p-footer>
+                    </form>
+                </p-card>
+        
+            </div>
+        
+        </div>
+        <br><br>
+        <p-footer>
+            <!-- <button type="button" pButton icon="pi pi-check" (click)="booked=false" label="Yes"></button> -->
+            <button type="button" (click)="booked=false" class="cancelButton">Cancel</button>
+        </p-footer>
+
+    </p-dialog>
+
+        <!-- <router-outlet (activate)="onOutletLoaded($event)"></router-outlet> -->
+    <!-- <app-book  [dealData]="deals"></app-book> -->
+</div>
+
+<div *ngIf="errorMessage != null">
+    <div class="row">
+        <div class="col-md-5 offset-3 text-center">
+            <div class="alert alert-info">{{errorMessage}}</div>
+        </div>
+    </div>
+</div>

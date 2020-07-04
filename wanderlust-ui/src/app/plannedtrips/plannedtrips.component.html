@@ -1,0 +1,69 @@
+
+<div class="row">
+    <div class="col-md-10 offset-1" id="column">
+        <!-- <p>plannedtrips works!</p> -->
+        <div *ngIf = "destIds.length>0">
+        <div class="row" *ngFor = "let data of finalData">
+            <div class="col-md-10 offset-1" >
+                <p-fieldset legend="{{data.continent | uppercase}} - {{data.name}}" [toggleable]="true">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <p-card [style]="{width: '360px'}" styleClass="ui-card-shadow">
+                                <!-- <p-header> -->
+                                    <h6 hidden id="heading">{{data.name}}</h6>
+                                    <img [src]="data.imageUrl" width="100%" height="100%" alt="not found">
+                                <!-- </p-header> -->
+                            </p-card>        
+                        </div>
+                        <div class="col-md-6 offset-1">
+                            <p-card  [style]="{width: '360px'}" styleClass="ui-card-shadow">
+                                <table class="table borderless table-striped">
+                                    <!-- <tr>
+                                        <th colspan="2" class="text-primary">Details - </th>
+                                    </tr> -->
+                                    <tr>
+                                        <th>No of Nights</th>
+                                        <td>: &nbsp;&nbsp;&nbsp;{{data.noOfNights}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Flight Charges</th>
+                                        <td>: &nbsp;&nbsp;&nbsp;{{data.flightCharges | currency}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Charges per person</th>
+                                        <td>: &nbsp;&nbsp;&nbsp;{{data.chargesPerPerson | currency}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-danger" *ngIf="data.discount != 0">{{data.discount}}% Discount </th>
+                                        <th class="text-danger" *ngIf="data.discount == 0">Sorry, No discount!! </th>
+                                        <!-- <input type="button" id="btn" value="Delete Trip"/> -->
+                                        &nbsp;&nbsp;&nbsp;<i id="delete" (click)="removeTrip(data.destinationId)" class="pi pi-trash" style="font-size: 3em"></i>
+                                    </tr>
+                                </table>
+                            </p-card>        
+
+                        </div>
+                    </div>
+                </p-fieldset>
+            </div>
+        </div>
+        </div>
+
+        <div class="alert alert-danger" id="em" *ngIf="!destIds.length">
+            {{errorMsg}}
+        </div>
+    </div>
+</div>
+
+<p-dialog header="Message" [(visible)]="display" [style]="{width: '60vw'}">
+    <div class="form-group text-center">
+        <h5>
+            <div *ngIf="errorMessage!=null" class="text-danger">
+                {{errorMessage}}
+            </div>
+            <div *ngIf="successMessage!=null" class="text-success">
+                {{successMessage}}
+            </div>
+        </h5>
+    </div>
+</p-dialog>

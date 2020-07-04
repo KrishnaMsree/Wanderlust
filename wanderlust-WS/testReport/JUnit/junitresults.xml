@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="6" time="0.009">
+ <testsuite name="Validating EmailId and Password" timestamp="2020-07-03T12:15:57" hostname="localhost" time="0.009" errors="0" tests="6" skipped="0" disabled="0" failures="0">
+  <testcase classname="Validating EmailId and Password" name="Test Case 6 : Invalid Contact Number" time="0.002" />
+  <testcase classname="Validating EmailId and Password" name="Test Case 5 : Valid Contact Number" time="0" />
+  <testcase classname="Validating EmailId and Password" name="Test Case 3 : Valid Password" time="0" />
+  <testcase classname="Validating EmailId and Password" name="Test Case 4 : Invalid Password" time="0" />
+  <testcase classname="Validating EmailId and Password" name="Test Case 1 : Valid EmailId" time="0" />
+  <testcase classname="Validating EmailId and Password" name="Test Case 2 : Invalid EmailId" time="0" />
+ </testsuite>
+</testsuites>

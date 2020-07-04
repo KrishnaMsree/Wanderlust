@@ -1,0 +1,339 @@
+Error: Could not connect to Database
+    at C:\Users\sachin.kumarkk\Desktop\wanderlust-ui\wanderlust-web-service\src\utilities\connections.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Could not connect to Database
+    at C:\Users\sachin.kumarkk\Desktop\wanderlust-ui\wanderlust-web-service\src\utilities\connections.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Could not connect to Database
+    at C:\Users\sachin.kumarkk\Desktop\wanderlust-ui\wanderlust-web-service\src\utilities\connections.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Enter registered contact number! If not registered, please register
+    at C:\Users\sachin.kumarkk\Desktop\wanderlust-ui\wanderlust-web-service\src\service\userslogin.js:9:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Incorrect password
+    at C:\Users\sachin.kumarkk\Desktop\wanderlust-ui\wanderlust-web-service\src\service\userslogin.js:16:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Incorrect password
+    at C:\Users\sachin.kumarkk\Desktop\wanderlust-ui\wanderlust-web-service\src\service\userslogin.js:16:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Incorrect password
+    at C:\Users\sachin.kumarkk\Desktop\wanderlust-ui\wanderlust-web-service\src\service\userslogin.js:16:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Incorrect password
+    at C:\Users\sachin.kumarkk\Desktop\wanderlust-ui\wanderlust-web-service\src\service\userslogin.js:16:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Could not connect to Database
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\utilities\connections.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Could not connect to Database
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\utilities\connections.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Enter registered contact number! If not registered, please register
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:9:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: connection.getSellerCollection is not a function
+    at Object.usersDB.generateUserId (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:8:23)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:47:24
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+ReferenceError: insertedData is not defined
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:53:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: User already exists
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:32:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: User already exists
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:32:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: User already exists
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:32:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: connection.getDestinationaCollection is not a function
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\setupUser.js:747:47
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Enter registered contact number! If not registered, please register
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:10:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Enter registered contact number! If not registered, please register
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:10:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Enter registered contact number! If not registered, please register
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:10:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Enter registered contact number! If not registered, please register
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:10:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Could not connect to Database
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\utilities\connections.js:82:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Could not connect to Database
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\utilities\connections.js:72:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Enter registered contact number! If not registered, please register
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: userDB.bookTrip is not a function
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:64:27
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Assignment to constant variable.
+    at Object.usersDB.generateBookingId (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:31:9)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:75:24
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: usersDB.generateBookingId(...).then is not a function
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:75:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+ReferenceError: id is not defined
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:78:49
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+ReferenceError: id is not defined
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:78:49
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+ReferenceError: id is not defined
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:78:49
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+ReferenceError: id is not defined
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:78:49
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'noOfPersons' of undefined
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:81:103
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to embedded failed for value "{\n' +
+  "  bookingId: 'B1004',\n" +
+  '  noOfPersons: 2,\n' +
+  "  startDate: '2020-07-03',\n" +
+  "  flightCharge: '',\n" +
+  "  destinationId: 'D1009'\n" +
+  '}" at path "bookings"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:100:194
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Enter registered contact number! If not registered, please register
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to embedded failed for value "{\n' +
+  "  bookingId: 'B1004',\n" +
+  '  noOfPersons: 1,\n' +
+  "  startDate: '2020-07-03',\n" +
+  "  flightCharge: '',\n" +
+  "  destinationId: 'HD1001'\n" +
+  '}" at path "bookings"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:100:194
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to embedded failed for value "{\n' +
+  "  bookingId: 'B1005',\n" +
+  '  noOfPersons: 1,\n' +
+  "  startDate: '2020-07-03',\n" +
+  "  flightCharge: '',\n" +
+  "  destinationId: 'HD1001'\n" +
+  '}" at path "bookings"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:100:194
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to embedded failed for value "{\n' +
+  "  bookingId: 'B1006',\n" +
+  '  noOfPersons: 1,\n' +
+  "  startDate: '2020-07-03',\n" +
+  "  flightCharge: '',\n" +
+  "  destinationId: 'HD1001'\n" +
+  '}" at path "bookings"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:100:194
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'noOfPersons' of undefined
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:81:103
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:89:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:89:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:92:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:94:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:94:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:94:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to Number failed for value "NaN" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:130:115
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to Number failed for value "NaN" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:130:115
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to Number failed for value "NaN" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:131:115
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to Number failed for value "NaN" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:131:115
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:94:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:94:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:94:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:94:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:94:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:94:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:94:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+MongoError: Projection cannot have a mix of inclusion and exclusion.
+    at Connection.<anonymous> (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongodb\lib\core\connection\pool.js:451:61)
+    at Connection.emit (events.js:311:20)
+    at processMessage (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongodb\lib\core\connection\connection.js:384:10)
+    at Socket.<anonymous> (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongodb\lib\core\connection\connection.js:553:15)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+TypeError: Cannot read property 'bookings' of undefined
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:117:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'bookings' of undefined
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:117:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'bookings' of undefined
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:118:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:69:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:69:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+CastError: Cast to number failed for value "undefined" at path "availability"
+    at model.Query.exec (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\node_modules\mongoose\lib\query.js:4443:15)
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\model\userslogin.js:92:90
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:69:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:69:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Incorrect password
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:17:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Incorrect password
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:17:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Enter registered contact number! If not registered, please register
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:10:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: User already exists
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:33:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:69:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:70:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:70:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Could not connect to Database
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\utilities\connections.js:90:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Could not connect to Database
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\utilities\connections.js:80:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Could not connect to Database
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\utilities\connections.js:90:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:87:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:87:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:87:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Incorrect password
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:18:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:87:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Sorry, this trip is already booked!!!
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:87:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: User already exists
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:36:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Error: Enter registered contact number! If not registered, please register
+    at C:\Users\krishna sree\Desktop\online training\wanderlust-angular\wanderlust-web-service\src\service\userslogin.js:11:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
