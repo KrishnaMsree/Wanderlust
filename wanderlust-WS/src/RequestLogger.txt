@@ -2170,3 +2170,4 @@ Sat Jul 04 2020 19:34:44 GMT+0530 (India Standard Time) GET /user/destinations
 Sat Jul 04 2020 19:34:51 GMT+0530 (India Standard Time) GET /user/destinations
 Sat Jul 04 2020 19:35:28 GMT+0530 (India Standard Time) GET /user/destinations
 Sat Jul 04 2020 19:39:15 GMT+0530 (India Standard Time) GET /user/destinations
+Sat Jul 04 2020 19:41:58 GMT+0530 (India Standard Time) GET /user/destinations

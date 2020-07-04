@@ -98,13 +98,31 @@ export class HotdealsComponent implements OnInit {
     }
   }
   customDate(c: FormControl) {
-    const date = new Date(c.value).toLocaleDateString();
-    const today = new Date().toLocaleDateString();
-    return  date > today ? null : {
-        dateError: {
-            message: 'Start date should be later than today'
-        }
-    };
-  }
+    const date = new Date(c.value);
+    const today = new Date();
+    if (date.getFullYear() < today.getFullYear()) {
+      return {dateError: {
+        message: 'Start date should be later than today'
+      }}
+    } else if (date.getFullYear() === today.getFullYear()) {
+      if (date.getMonth() > today.getMonth()) {
+        return null;
 
+      }else if (date.getMonth() === today.getMonth()) {
+        if (date.getDate() > today.getDate()) {
+          return null;
+        } else {
+          return { dateError: {
+            message: 'Start date should be later than today'
+          }}
+        }
+      } else {
+        return { dateError: {
+          message: 'Start date should be later than today'
+        }}
+      }
+    } else {
+      return null;
+    }
+  }
 }
