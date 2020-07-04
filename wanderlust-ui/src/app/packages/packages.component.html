@@ -1,12 +1,12 @@
 <!-- {{hotDealsData | json}} -->
-
-<div *ngIf = "errorMessage == null && hotDealsData.length>0 && !booked">
-    <div *ngFor="let deal of hotDealsData">
+<br><br><br>
+<div *ngIf = "errorMessage == null && searchData.length>0 && !booked">
+    <div *ngFor="let deal of searchData">
         <div class="row" >
             <div class="col-md-3 offset-1">
                 <img [src]="deal.imageUrl" alt="Image not found" width="100%" height="80%">
             </div>
-            <div class="vertical">&nbsp;&nbsp;&nbsp;</div>&nbsp;&nbsp;&nbsp;
+            <div class="vertical">&nbsp;&nbsp;&nbsp;&nbsp;</div>&nbsp;&nbsp;&nbsp;
             <div class="col-md-4">
                 
                 <p-card header={{deal.name}} [style]="{width: '360px'}">
@@ -21,17 +21,16 @@
                     <div >Prices Starting from</div>
                     <div class="text-center text-success">{{deal.chargesPerPerson | currency}}</div>
                     <br>
-                    <button type="submit" [routerLink]="['/book']" (click)="book(deal)" class="btn btn-primary">Book</button>   
+                    <button type="submit" name="book" (click)="book(deal)" class="btn btn-primary">Book</button>   
                 </div>
             </div>
-        </div> <br>  <br>
+        </div> <br>  <br><br>
     </div>
-    
 </div>
 
 <div *ngIf="booked">
-    <router-outlet (activate)="onOutletLoaded($event)"></router-outlet>
-    <!-- <app-book  [dealData]="deals"></app-book> -->
+    <!-- <router-outlet (activate)="onOutletLoaded($event)"></router-outlet> -->
+    <app-book  [dealData]="deals"></app-book>
 </div>
 
 <div *ngIf="errorMessage != null">

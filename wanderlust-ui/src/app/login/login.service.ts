@@ -10,11 +10,11 @@ import { User } from './userlogin';
 })
 export class LoginService {
 
-  loginURL = "http://localhost:4000/user/login";
+  loginURL = 'http://localhost:4000/user/login';
 
   constructor(private http: HttpClient) { }
 
   login(data: any): Observable<User> {
-    return <Observable<User>> this.http.post(this.loginURL,data);
+    return <Observable<User>> this.http.post(this.loginURL, data);
   }
 }

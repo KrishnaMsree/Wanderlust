@@ -7,18 +7,18 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  keyword: string = '';
+  keyword = '';
   // sessionStorage
   constructor(private route: Router) { }
 
   ngOnInit() {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }
-  search(){
-    sessionStorage.setItem('searchValue',this.keyword);
-    this.route.navigateByUrl('/packages/'+this.keyword.toUpperCase());
-    setTimeout(()=>{
+  search() {
+    sessionStorage.setItem('searchValue', this.keyword);
+    this.route.navigateByUrl('/packages/' + this.keyword.toUpperCase());
+    setTimeout(() => {
       window.location.reload();
-    },500);
+    }, 100);
   }
 }

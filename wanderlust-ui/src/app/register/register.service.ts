@@ -8,11 +8,11 @@ import { HttpClient } from '@angular/common/http';
 })
 export class RegisterService {
 
-  registerURL = "http://localhost:4000/user/register";
+  registerURL = 'http://localhost:4000/user/register';
 
   constructor(private http: HttpClient) { }
 
   register(data: any): Observable<User> {
-    return <Observable<User>> this.http.post(this.registerURL,data);
+    return <Observable<User>> this.http.post(this.registerURL, data);
   }
 }

@@ -9,23 +9,25 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item" *ngIf="userLoggedIn">
-                <span class="nav-link">Welcome {{userName}}</span>
+                <span class="nav-link" id="name" [routerLink]="['/profile']">Welcome {{userName}}</span>
             </li>
             <li class="nav-item">
-                <a class="nav-link" (click)="hotdeals()" [routerLink]="['/packages']">Hot Deals</a>
+                <a class="nav-link" (click)="hotdeals()" [routerLink]="['/hotDeals']">Hot Deals</a>
             </li>
             <li class="nav-item" *ngIf="!userLoggedIn">
                 <a class="nav-link" [routerLink]="['/login']">Login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" [routerLink]="['/viewBookings']">Planned Trips</a>
+                <a class="nav-link" id="plannedTrips" [routerLink]="['/viewBookings']">Planned Trips</a>
             </li>
             <li class="nav-item" *ngIf="userLoggedIn">
-                <a class="nav-link" (click)="confirm()">Logout</a>
+                <a class="nav-link" id="logout" (click)="confirm()">Logout</a>
             </li>
         </ul>
     </div>
 </nav>
+<!-- <p-messages [value]="msgs"></p-messages> -->
+<!-- <p-confirmDialog [style]="{width: '50vw'}"></p-confirmDialog> -->
 
 <div >
     <!-- <br> -->

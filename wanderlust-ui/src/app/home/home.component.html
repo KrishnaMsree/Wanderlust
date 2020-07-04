@@ -9,7 +9,7 @@
                     Not all those who wander are lost.</h2>
                 <div class="form-inline d-flex">
                     <input type="text" class="form-control-lg flex-fill" id="place" name="continent" id="continent" [(ngModel)]="keyword" placeholder="Where?">&nbsp;
-                    <button (click)="search()" class="btn btn-primary mx-auto">Search</button>
+                    <button (click)="search()" name="searchbutton" class="btn btn-primary mx-auto">Search</button>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
     
     <!-- Hot deals [key]="keyword"-->
     <section id="hotDeals" class="hotDeals-section">
-        <app-packages></app-packages>
+        <app-hotdeals></app-hotdeals>
     </section>
 
     <!-- Signup Section -->
